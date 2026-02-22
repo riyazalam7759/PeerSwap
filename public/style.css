@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: #2c3e50;
+    padding:10px 20px;
+}
+nav ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #34495e;
+}
+hr{
+    margin: 0;
+    border: 0;
+    border-top: 3px solid darkseagreen;
+}
+.container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-page{
+    background-color: darkgray;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0px 4px 12px rgba(150, 0, 0, 0.337)
+    
+}
+.input{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #73b687;
+    font-size: 16px;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+.btn{
+    width: 100%;
+    padding: 12px;
+    background-color: #103b1d;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+.btn:hover{
+    background-color: #19522b;
+}
+
+
+/* this for skills */
+.checkbox-group input[type="checkbox"] {
+  display: none; /* Hide default checkbox */
+  
+}
+
+.checkbox-group label {
+    background-color: #53c577;
+  display: inline-block;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+/* When selected */
+.checkbox-group input[type="checkbox"]:checked + label {
+  background-color: #2196F3;
+  color: white;
+  border-color: #2196F3;
+}
