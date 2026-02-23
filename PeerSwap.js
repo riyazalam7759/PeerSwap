@@ -36,6 +36,14 @@ app.get("/skills",(req , resp)=>{
     resp.render("skills")
 })
 
+app.post("/skills",(req,resp)=>{
+    resp.redirect("/test")
+})
+
+app.get("/chatSection",(req,resp)=>{
+    resp.render("chatSection")
+})
+
 app.post("/login",(req , resp)=>{
     resp.redirect("/home")
 })
@@ -46,7 +54,12 @@ app.post("/login",(req , resp)=>{
 app.post("/signup",(req , resp)=>{
     resp.redirect("/skills")
 })
-
+app.get("/test",(req,resp)=>{
+    resp.render("test")
+})
+app.get("/welcome",(req,resp)=>{
+    resp.render("welcome")
+})
 
 
 app.listen(3800)

@@ -96,3 +96,17 @@ hr{
   color: white;
   border-color: #2196F3;
 }
+
+.skills-btn{
+     width: 30%;
+    padding: 12px;
+    background-color: #103b1d;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+
+
+}
