@@ -1,11 +1,19 @@
 {
-  "name": "todo-list-project",
+  "name": "mini-project",
   "version": "1.0.0",
-  "description": "todo project using node js ",
+  "description": "",
+  "homepage": "https://github.com/riyazalam7759/PeerSwap#readme",
+  "bugs": {
+    "url": "https://github.com/riyazalam7759/PeerSwap/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riyazalam7759/PeerSwap.git"
+  },
   "license": "ISC",
   "author": "Riyaz",
   "type": "module",
-  "main": "index.js",
+  "main": "PeerSwap.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +21,6 @@
     "ejs": "^4.0.1",
     "express": "^5.2.1",
     "mongodb": "^7.1.0",
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.14"
   }
 }
